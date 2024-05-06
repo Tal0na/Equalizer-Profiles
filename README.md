@@ -1,0 +1,1 @@
+minha config do equalizador 
