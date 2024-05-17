@@ -1,4 +1,4 @@
-# Peace Equalizer Profiles
+# Equalizer Profiles
 
 [![en](https://img.shields.io/badge/lang-en-red.svg)](README.md)
 [![pt-BR](https://img.shields.io/badge/lang-pt--BR-green.svg)](README.pt-BR.md)
