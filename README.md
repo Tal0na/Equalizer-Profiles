@@ -7,6 +7,8 @@
 
 ## Introduction
 
+## SUPORT: Equalizer APO / Peace/ PulseEffects
+
 This document outlines the custom equalizer settings in Peace Equalizer. Peace Equalizer is a graphical front-end for Equalizer APO, providing detailed sound control on Windows systems. These configurations are tailored for specific sound preferences and typical music genres.
 
 ## Requirements
