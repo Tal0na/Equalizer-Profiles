@@ -13,7 +13,7 @@ To save your settings in Peace Equalizer:
 
 1. Open Peace Equalizer.
 2. Configure the frequency bands and filters as described above.
-3. Click on **"Save settings"** and give your profile a name, for example, `MyEQConfig`.
+3. Click on **"Save settings"** and give your profile a name, for example: `MyEQConfig`.
 
 To load your settings:
 
