@@ -1,4 +1,4 @@
-# My Peace Equalizer Configuration
+# Peace Equalizer Configuration
 
 ## Introduction
 
