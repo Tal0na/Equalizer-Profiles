@@ -1,25 +1,34 @@
-# Minha Configuração do Equalizador Peace
+# My Peace Equalizer Configuration
 
-## Introdução
+## Introduction
 
-Este documento descreve minha configuração personalizada do equalizador no Peace Equalizer. O Peace Equalizer é um front-end gráfico para o Equalizer APO, que oferece controle detalhado sobre o som em sistemas Windows. Esta configuração é otimizada para meus gostos pessoais e para o tipo de música que eu costumo ouvir.
+This document describes my custom equalizer settings in Peace Equalizer. Peace Equalizer is a graphical front-end for Equalizer APO, offering detailed sound control on Windows systems. This configuration is optimized for my personal preferences and the type of music I usually listen to.
 
-## Requisitos
+## Requirements
 
 - **Equalizer APO**: [Download](https://sourceforge.net/projects/equalizerapo/)
 - **Peace Equalizer**: [Download](https://sourceforge.net/projects/peace-equalizer-apo-extension/)
 
-## Salvando e Carregando Configurações
+To save your settings in Peace Equalizer:
 
-Para salvar suas configurações no Peace Equalizer:
+1. Open Peace Equalizer.
+2. Configure the frequency bands and filters as described above.
+3. Click on **"Save settings"** and give your profile a name, for example, `MyEQConfig`.
 
-1. Abra o Peace Equalizer.
-2. Configure as bandas de frequência e filtros conforme descrito acima.
-3. Clique em **"Save settings"** e dê um nome ao seu perfil, por exemplo, `MinhaConfigEQ`.
+To load your settings:
 
-Para carregar suas configurações:
+1. Open Peace Equalizer.
+2. Click on **"Presets"**.
+3. Select the saved profile, `MyEQConfig`.
 
-1. Abra o Peace Equalizer.
-2. Clique em **"Presets"**.
-3. Selecione o perfil salvo, `MinhaConfigEQ`.
+## Final Considerations
+
+Remember that these settings are based on my personal preferences and may not be ideal for all types of music or audio equipment. Feel free to adjust the frequency bands and additional filters to meet your specific needs.
+
+If you have suggestions or adjustments that have improved your experience, please share!
+
+## References
+
+- [Equalizer APO Documentation](https://sourceforge.net/p/equalizerapo/wiki/Documentation/)
+- [Peace Equalizer - User Guide](https://sourceforge.net/p/peace-equalizer-apo-extension/wiki/Documentation/)
 
