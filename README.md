@@ -5,8 +5,6 @@
 [![ru](https://img.shields.io/badge/lang-ru-yellow.svg)](README.ru.md)
 [![uk-UA](https://img.shields.io/badge/lang-uk--UA-blue)](README.uk-UA.md)
 
-
-
 ## Introduction
 
 This document outlines the custom equalizer settings in Peace Equalizer. Peace Equalizer is a graphical front-end for Equalizer APO, providing detailed sound control on Windows systems. These configurations are tailored for specific sound preferences and typical music genres.
