@@ -1,9 +1,9 @@
 # Equalizer Profiles
 
-[![en](https://img.shields.io/badge/lang-en-red.svg)](README.md)
-[![pt-BR](https://img.shields.io/badge/lang-pt--BR-green.svg)](README.pt-BR.md)
-[![ru](https://img.shields.io/badge/lang-ru-yellow.svg)](README.ru.md)
-[![uk-UA](https://img.shields.io/badge/lang-uk--UA-blue.svg)](README.uk-UA.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](/README/README.md)
+[![pt-BR](https://img.shields.io/badge/lang-pt--BR-green.svg)](/README/README.pt-BR.md)
+[![ru](https://img.shields.io/badge/lang-ru-yellow.svg)](/README/README.ru.md)
+[![uk-UA](https://img.shields.io/badge/lang-uk--UA-blue.svg)](/README/README.uk-UA.md)
 
 ## Introduction
 
