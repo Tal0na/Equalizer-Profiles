@@ -11,11 +11,44 @@
 
 This document outlines the custom equalizer settings in Peace Equalizer. Peace Equalizer is a graphical front-end for Equalizer APO, providing detailed sound control on Windows systems. These configurations are tailored for specific sound preferences and typical music genres.
 
-## Requirements
+Supported Platforms & Applications
+✅ Windows
 
-- **Equalizer APO**: [Download](https://sourceforge.net/projects/equalizerapo/)
-- **Peace Equalizer**: [Download](https://sourceforge.net/projects/peace-equalizer-apo-extension/)
+Equalizer APO
 
+Peace Equalizer (GUI for Equalizer APO)
+
+✅ Linux
+
+EasyEffects (PipeWire)
+
+PulseEffects (PulseAudio – legacy)
+
+PipeWire native EQ filters
+
+⚠️ Note: On modern Linux distributions (Fedora, Arch, Ubuntu 22.10+), PipeWire + EasyEffects is the recommended setup.
+
+Requirements
+Windows
+
+Equalizer APO
+Download: https://sourceforge.net/projects/equalizerapo/
+
+Peace Equalizer
+Download: https://sourceforge.net/projects/peace-equalizer-apo-extension/
+
+Linux
+
+EasyEffects
+
+Flatpak (recommended):
+
+flatpak install flathub com.github.wwmm.easyeffects
+
+
+Or via distro package manager
+
+PipeWire (usually installed by default on modern distros)
 To save your settings in Peace Equalizer:
 
 1. Open Peace Equalizer.
