@@ -3,12 +3,12 @@
 [![en](https://img.shields.io/badge/lang-en-red.svg)](README.md)
 [![pt-BR](https://img.shields.io/badge/lang-pt--BR-green.svg)](README.pt-BR.md)
 [![ru](https://img.shields.io/badge/lang-ru-yellow.svg)](README.ru.md)
-[![uk-UA](https://img.shields.io/badge/lang-uk--UA-blue)](README.uk-UA.md)
+[![uk-UA](https://img.shields.io/badge/lang-uk--UA-blue.svg)](README.uk-UA.md)
 
 ## Introduction
 
-This repository contains **custom equalizer profiles** designed to improve audio quality on both **Windows and Linux** systems.  
-The profiles focus on music listening and general multimedia use and can be adjusted according to personal taste and audio hardware.
+This repository contains **custom equalizer profiles** designed to improve audio quality on **Windows and Linux** systems.  
+The profiles are intended for music, gaming, movies, and general multimedia use, and can be adapted to different audio devices and personal preferences.
 
 ---
 
@@ -24,7 +24,7 @@ The profiles focus on music listening and general multimedia use and can be adju
 - **PipeWire native equalizer filters**
 
 > ⚠️ Most modern Linux distributions (Fedora, Arch, Ubuntu 22.10+) use **PipeWire** by default.  
-> In this case, **EasyEffects** is the recommended application.
+> In this case, **EasyEffects** is the recommended solution.
 
 ---
 
@@ -42,8 +42,32 @@ The profiles focus on music listening and general multimedia use and can be adju
     ```bash
     flatpak install flathub com.github.wwmm.easyeffects
     ```
-  - Or install via your distribution’s package manager
+  - Or install via your distribution package manager
 - **PipeWire** (usually installed by default)
+
+---
+
+## Categories
+
+The equalizer profiles are organized by **audio device type**:
+
+- **Earphones**  
+  In-ear devices such as IEMs and earbuds (wired or wireless).
+
+- **Headphones**  
+  Over-ear and on-ear headphones for music listening, monitoring, and general use.
+
+- **Headsets (Gamer)**  
+  Gaming headsets with built-in microphones, optimized for games, voice chat, and multimedia.
+
+- **Speakers**  
+  Desktop speakers, bookshelf speakers, and traditional speaker systems.
+
+- **Soundbars**  
+  Soundbars used with TVs, monitors, or desktop setups.
+
+This structure ensures consistency across **Windows (Peace / Equalizer APO)**  
+and **Linux (EasyEffects / PipeWire / PulseEffects)** environments.
 
 ---
 
@@ -80,18 +104,18 @@ The profiles focus on music listening and general multimedia use and can be adju
 
 - Frequency bands and gain values are **fully transferable** between:
   - Peace Equalizer ↔ EasyEffects
-- Some filter names may differ:
+- Some filter names may differ depending on the application:
   - **Preamp** → **Input Gain**
   - **Peak Filter** → **Bell Filter**
-- Always adjust **preamp/input gain** to prevent audio clipping.
+- Always adjust **preamp/input gain** to avoid clipping or distortion.
 
 ---
 
 ## Final Considerations
 
-These equalizer profiles are based on **personal preferences** and may not suit all:
-- Headphones or speakers
-- Music genres or listening styles
+These profiles are based on **personal listening preferences** and may not be ideal for:
+- Every headset, headphone, or speaker
+- All music genres or use cases
 
 Feel free to tweak:
 - Gain levels
