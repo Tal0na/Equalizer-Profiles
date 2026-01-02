@@ -7,68 +7,106 @@
 
 ## Introduction
 
-## SUPORT: Equalizer APO / Peace / PulseEffects
+This repository contains **custom equalizer profiles** designed to improve audio quality on both **Windows and Linux** systems.  
+The profiles focus on music listening and general multimedia use and can be adjusted according to personal taste and audio hardware.
 
-This document outlines the custom equalizer settings in Peace Equalizer. Peace Equalizer is a graphical front-end for Equalizer APO, providing detailed sound control on Windows systems. These configurations are tailored for specific sound preferences and typical music genres.
+---
 
-Supported Platforms & Applications
-✅ Windows
+## Supported Platforms & Applications
 
-Equalizer APO
+### Windows
+- **Equalizer APO**
+- **Peace Equalizer** (GUI for Equalizer APO)
 
-Peace Equalizer (GUI for Equalizer APO)
+### Linux
+- **EasyEffects** (PipeWire – recommended)
+- **PulseEffects** (PulseAudio – legacy)
+- **PipeWire native equalizer filters**
 
-✅ Linux
+> ⚠️ Most modern Linux distributions (Fedora, Arch, Ubuntu 22.10+) use **PipeWire** by default.  
+> In this case, **EasyEffects** is the recommended application.
 
-EasyEffects (PipeWire)
+---
 
-PulseEffects (PulseAudio – legacy)
+## Requirements
 
-PipeWire native EQ filters
+### Windows
+- **Equalizer APO**  
+  https://sourceforge.net/projects/equalizerapo/
+- **Peace Equalizer**  
+  https://sourceforge.net/projects/peace-equalizer-apo-extension/
 
-⚠️ Note: On modern Linux distributions (Fedora, Arch, Ubuntu 22.10+), PipeWire + EasyEffects is the recommended setup.
+### Linux
+- **EasyEffects**
+  - Flatpak (recommended):
+    ```bash
+    flatpak install flathub com.github.wwmm.easyeffects
+    ```
+  - Or install via your distribution’s package manager
+- **PipeWire** (usually installed by default)
 
-Requirements
-Windows
+---
 
-Equalizer APO
-Download: https://sourceforge.net/projects/equalizerapo/
+## How to Apply Profiles
 
-Peace Equalizer
-Download: https://sourceforge.net/projects/peace-equalizer-apo-extension/
+### Windows (Peace Equalizer)
 
-Linux
+1. Open **Peace Equalizer**.
+2. Configure the frequency bands and filters according to the profile.
+3. Click **Save settings** and name your profile  
+   Example: `MyEQConfig`.
+4. To load a profile:
+   - Open Peace Equalizer
+   - Go to **Presets**
+   - Select `MyEQConfig`
 
-EasyEffects
+---
 
-Flatpak (recommended):
+### Linux (EasyEffects)
 
-flatpak install flathub com.github.wwmm.easyeffects
+1. Open **EasyEffects**.
+2. Enable the **Equalizer** effect.
+3. Configure the frequency bands manually or import a preset.
+4. Click **Presets → Save Preset**.
+5. (Optional) Assign the preset to:
+   - System output
+   - Specific applications
 
+> EasyEffects supports **per-application profiles**, which is not available in Equalizer APO.
 
-Or via distro package manager
+---
 
-PipeWire (usually installed by default on modern distros)
-To save your settings in Peace Equalizer:
+## Profile Compatibility Notes
 
-1. Open Peace Equalizer.
-2. Configure the frequency bands and filters as described above.
-3. Click on **"Save settings"** and give your profile a name, for example: `MyEQConfig`.
+- Frequency bands and gain values are **fully transferable** between:
+  - Peace Equalizer ↔ EasyEffects
+- Some filter names may differ:
+  - **Preamp** → **Input Gain**
+  - **Peak Filter** → **Bell Filter**
+- Always adjust **preamp/input gain** to prevent audio clipping.
 
-To load your settings:
-
-1. Open Peace Equalizer.
-2. Click on **"Presets"**.
-3. Select the saved profile, `MyEQConfig`.
+---
 
 ## Final Considerations
 
-Remember that these settings are based on my personal preferences and may not be ideal for all types of music or audio equipment. Feel free to adjust the frequency bands and additional filters to meet your specific needs.
+These equalizer profiles are based on **personal preferences** and may not suit all:
+- Headphones or speakers
+- Music genres or listening styles
 
-If you have suggestions or adjustments that have improved your experience, please share!
+Feel free to tweak:
+- Gain levels
+- Q values
+- Preamp volume
+
+If you improve or adapt a profile for a specific device, consider sharing it with the community.
+
+---
 
 ## References
 
-- [Equalizer APO Documentation](https://sourceforge.net/p/equalizerapo/wiki/Documentation/)
-- [Peace Equalizer - User Guide](https://sourceforge.net/p/peace-equalizer-apo-extension/wiki/Documentation/)
-
+- Equalizer APO Documentation  
+  https://sourceforge.net/p/equalizerapo/wiki/Documentation/
+- Peace Equalizer User Guide  
+  https://sourceforge.net/p/peace-equalizer-apo-extension/wiki/Documentation/
+- EasyEffects Documentation  
+  https://github.com/wwmm/easyeffects
